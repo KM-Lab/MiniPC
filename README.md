@@ -1,6 +1,8 @@
 # MiniPC
 Place cell identification and analysis from miniscope recordings
 
+Example dataset can be found <a ref= "https://drive.google.com/drive/folders/1EBUdYbQ764NmUG4B9_i2_M5lvZpm_5Rh?usp=sharing">here</a>. 
+
 The goal of Mini PC is to take processed miniscope data (from MIN1PIPE pipeline) and location data (from ezTrack) and identify place cells based on spatial information.
 
 Run from script MiniPC.m
