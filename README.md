@@ -14,6 +14,7 @@ To synchronize the two timestamps, a synchronization cue (eg a light flash) has 
 
 **********
 INPUTS
+
 Manually entered in settings of MiniPC.m:  
 - cam numbers
 - frame synchronization numbers
