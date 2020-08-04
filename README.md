@@ -23,16 +23,28 @@ OUTPUTS
 - .mat file saved with various outputs and params
 
 Key output variables:
-id:  ID of mouse 
-PC:  binary of whether or not cell has significant spatial information (ie a place cell)
-SI:  spatial information (in bits) for each cell
-SI_rand: SI calculations for shuffled data
-spkmap:  neural activity rate map (sum of activity in each bin, normalized for time in bin)
-smth_spkamp:  spkmap with gaussian filter applied
-locs_dist: matrix with columns for X coordinate, Y coordinate, and distance travelled for each frame
-locs_dist_fp [fp = fast pass]:  locs_dist matrix with only portions of interest included, also speed filtered to remove frames in which animal was moving slower than spdreq
-spkfn_fp: spkfn data from processed calcium file, also fast passed
-gridprob:  heatmap of space with percent time spent in that bin
-frluX [frame lookup edit]:  lookup table with miniscope frame number on the left, corresponding behavior frame on the right, edited to only include frames of interest (fp)
-PC_info:  compiled information on place cells; row 1) cell ID, row 2) place field size, row 3) place field angle (in polar coordinates) 
+id:  ID of mouse,
+
+PC:  binary of whether or not cell has significant spatial information (ie a place cell),
+
+SI:  spatial information (in bits) for each cell,
+
+SI_rand: SI calculations for shuffled data,
+
+spkmap:  neural activity rate map (sum of activity in each bin, normalized for time in bin),
+
+smth_spkamp:  spkmap with gaussian filter applied,
+
+locs_dist: matrix with columns for X coordinate, Y coordinate, and distance travelled for each frame,
+
+locs_dist_fp (fp = fast pass):  locs_dist matrix with only portions of interest included, also speed filtered to remove frames in which animal was moving slower than spdreq,
+
+spkfn_fp: spkfn data from processed calcium file, also fast passed,
+
+gridprob:  heatmap of space with percent time spent in that bin,
+
+frluX (frame lookup edit):  lookup table with miniscope frame number on the left, corresponding behavior frame on the right, edited to only include frames of interest (fp),
+
+PC_info:  compiled information on place cells; row 1) cell ID, row 2) place field size, row 3) place field angle (in polar coordinates),
+
 per_binoc:  percent of bins occupied in the arena (*specific for round arena)
