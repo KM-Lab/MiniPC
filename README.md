@@ -14,15 +14,24 @@ If miniscope and behavior camera are recorded on same instance, ezLocTrack_v3_2T
 
 **********
 INPUTS
-Manually entered in settings of MiniPC.m:  cam numbers, frame synchronization numbers, size calibrations, behavior camera fps
+Manually entered in settings of MiniPC.m:  
+- cam numbers
+- frame synchronization numbers
+- size calibrations
+- behavior camera fps
 
-Prompted for file input:  processed calcium file from MIN1PIPE, timestamp file for msCam, timestamp file for behaviorCam, animal location data (from ezTrack output .csv files assuming two object locations, required for formatting)
+Prompted for file input:  
+- processed calcium file from MIN1PIPE
+- timestamp file for msCam (from miniscope DAQ recording) 
+- timestamp file for behaviorCam 
+- animal location data (from ezTrack output .csv files assuming two object locations, required for formatting)
 
 OUTPUTS
 - Folder containing activity .fig rate maps ("spiking maps") for all place cells
 - .mat file saved with various outputs and params
 
 Key output variables:
+
 id:  ID of mouse,
 
 PC:  binary of whether or not cell has significant spatial information (ie a place cell),
