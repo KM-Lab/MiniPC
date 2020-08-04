@@ -11,8 +11,6 @@ This software was written in part to solve the problem of aligning the timestamp
 
 To synchronize the two timestamps, a synchronization cue (eg a light flash) has to be manually identified in both miniscope-behavior camera (called 'dummybehavcam' in the sofrware) with the actual behavior camera (called 'behavcam'). These synchronizing frames are to be entered into frame_beh_sync for the behavcam, and frame_ms_sync for the dummybehavcam. This allows an offset between the two timestamps to be identified, thus putting the two timestamps in the same relative timing.
 
-If miniscope and behavior camera are recorded on same instance, ezLocTrack_v3_2TS can be edited to only import the one timestamp, seperate out the miniscope frames and the behavior frames, and proceed as normal from making the frame lookup table. NB this functionality us not currently included.
-
 
 **********
 INPUTS
